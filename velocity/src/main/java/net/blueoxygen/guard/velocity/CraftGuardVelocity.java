@@ -21,7 +21,8 @@ import java.util.logging.Logger;
 @Plugin(
         id = "craftguard",
         name = "CraftGuard",
-        authors = "BlueOxygen"
+        authors = "BlueOxygen",
+        version = "1.0-SNAPSHOT"
 )
 public class CraftGuardVelocity {
 
