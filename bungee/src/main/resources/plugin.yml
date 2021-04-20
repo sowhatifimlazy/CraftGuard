@@ -1,0 +1,4 @@
+name: CraftGuard
+main: net.blueoxygen.guard.bungee.CraftGuardBungee
+version: 1.0-SNAPSHOT
+author: BlueOxygen
