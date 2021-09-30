@@ -1,0 +1,5 @@
+name: CraftGuard
+main: net.blueoxygen.guard.spigot.CraftGuardSpigot
+version: 1.0-SNAPSHOT
+author: BlueOxygen
+depend: [ProtocolLib]

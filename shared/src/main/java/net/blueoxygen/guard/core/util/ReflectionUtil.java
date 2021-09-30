@@ -28,6 +28,15 @@ public class ReflectionUtil {
         return field;
     }
 
+    public static Field getFieldFromType(Class<?> clazz, Class<?> typeClass) throws Exception {
+        Method getDeclaredFields0 = Class.class.getDeclaredMethod("getDeclaredFields0", boolean.class);
+        getDeclaredFields0.setAccessible(true);
+        Field[] fields = (Field[]) getDeclaredFields0.invoke(clazz, false);
+        return Arrays.stream(fields)
+                .filter(field -> field.getType().equals(typeClass))
+                .findFirst().orElse(null);
+    }
+
     private static Field getModifiersField()
             throws NoSuchFieldException {
         try {

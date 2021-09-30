@@ -15,9 +15,10 @@
     </properties>
 
     <modules>
-        <module>bungee</module>
         <module>shared</module>
+        <module>bungee</module>
         <module>velocity</module>
+        <module>spigot</module>
     </modules>
 
     <dependencies>
