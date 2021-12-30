@@ -22,7 +22,7 @@ import java.util.logging.Logger;
         id = "craftguard",
         name = "CraftGuard",
         authors = "BlueOxygen",
-        version = "1.0-SNAPSHOT"
+        version = "2.0-SNAPSHOT"
 )
 public class CraftGuardVelocity {
 
