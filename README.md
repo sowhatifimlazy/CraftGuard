@@ -13,7 +13,7 @@ We currently support the following server software:
 Is your server software missing? Feel free to open a pull request, we'd be glad to work with you on adding support for your server software!
 
 # How can I protect my server with CraftGuard?
-You can enquire about our services by e-mailing us or joining our [Discord](https://discord.com/) server.
+You can enquire about our services by e-mailing us or joining our [Discord](https://discord.com/invite/gt2jwG8tfx) server.
 
 You can e-mail us at: hello@craftguard.net
 
